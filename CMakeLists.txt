@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 # Pull in Pico SDK (must be before project)
-include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
+include(${PICO_SDK_PATH}/pico_sdk_init.cmake)
 
 # Initialise the Pico SDK
 pico_sdk_init()
